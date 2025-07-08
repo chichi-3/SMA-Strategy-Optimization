@@ -3,8 +3,8 @@ Backtesting and optimization framework for Simple Moving Average (SMA) crossover
 
 This project demonstrates how to backtest, evaluate, and optimize a simple moving average crossover strategy using historical market data. It walks through the full lifecycle — from initial idea to out-of-sample testing.
 
-# Strategy Logic
-Uses simple moving average (SMA) crossover:
+## Strategy Logic
 
-  Buy: When shorter MA crosses above longer MA.
-  Sell: When shorter MA crosses below longer MA.
+- Simple moving average crossover.
+- **Buy signal**: Short MA crosses above Long MA.
+- **Sell signal**: Short MA crosses below Long MA.
