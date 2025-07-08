@@ -41,11 +41,6 @@ This project demonstrates how to backtest, evaluate, and optimize a simple movin
 
 ##  Conclusion
 
-This moving average crossover strategy is **not suitable for real-world trading** as-is.
+We were able to find a moving average pair that performed better than the initial 50/200 strategy. However, both the original and the optimized versions underperformed Buy & Hold.
 
-- The full strategy underperforms Buy & Hold.
-- Even after optimization, it suffers from poor drawdowns and overfitting risks.
-- **However**, the exercise is valuable to:
-- Understand how strategy building works.
-- Learn the importance of validation and risk metrics.
-- Filter out curve-fitted strategies through proper backtesting.
+There was also a noticeable difference between in-sample and out-of-sample returns, highlighting the risk of overfitting. This shows why relying only on backtest performance can be misleading — proper validation is key.
