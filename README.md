@@ -5,5 +5,7 @@ This project demonstrates how to backtest, evaluate, and optimize a simple movin
 
 # Strategy Logic
 Uses simple moving average (SMA) crossover:
+
   Buy: When shorter MA crosses above longer MA.
+
   Sell: When shorter MA crosses below longer MA.
