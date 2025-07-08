@@ -1,7 +1,7 @@
 #  Moving Average Crossover Strategy (Backtest & Optimization)
 Backtesting and optimization framework for Simple Moving Average (SMA) crossover strategies. Includes in-sample and out-of-sample evaluation, strategy performance metrics (Sharpe, CAGR, drawdown), and heatmap visualization.
 
-This project demonstrates how to backtest, evaluate, and optimize a simple moving average crossover strategy using historical market data. It walks through the full lifecycle — from initial idea to out-of-sample testing.
+This project demonstrates how to backtest, evaluate, and optimize a simple moving average crossover strategy using historical market data. It walks through the full lifecycle from initial idea to out-of-sample testing.
 
 ## Strategy Logic
 
@@ -43,6 +43,6 @@ This project demonstrates how to backtest, evaluate, and optimize a simple movin
 
 We were able to find a moving average pair that performed better than the initial 50/200 strategy. However, both the original and the optimized versions underperformed Buy & Hold.
 
-There was also a noticeable difference between in-sample and out-of-sample returns, highlighting the risk of overfitting. This shows why relying only on backtest performance can be misleading — proper validation is key.
+There was also a noticeable difference between in-sample and out-of-sample returns, highlighting the risk of overfitting. This shows why relying only on backtest performance can be misleading, proper validation is key.
 
-Overall, this project serves as a strong example of how to approach strategy development carefully — not just to find what works, but also to understand what doesn’t.
+Overall, this project serves as a strong example of how to approach strategy development carefully, not just to find what works, but also to understand what doesn’t.
