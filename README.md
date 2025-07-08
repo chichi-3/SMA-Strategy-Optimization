@@ -46,3 +46,7 @@ We were able to find a moving average pair that performed better than the initia
 There was also a noticeable difference between in-sample and out-of-sample returns, highlighting the risk of overfitting. This shows why relying only on backtest performance can be misleading, proper validation is key.
 
 Overall, this project serves as a strong example of how to approach strategy development carefully, not just to find what works, but also to understand what doesn’t.
+
+### Important Note
+
+This strategy was evaluated without any risk management techniques, such as stop-loss placement, position sizing, or capital allocation rules. These factors play a critical role in real-world trading performance. While the current results underperform Buy & Hold, the strategy may hold potential if enhanced with proper risk controls and money management practices.
